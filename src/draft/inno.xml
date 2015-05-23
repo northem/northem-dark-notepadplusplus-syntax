@@ -1,0 +1,16 @@
+<!-- == InnoSetup == -->
+<LexerType name="inno" desc="InnoSetup" ext="iss">
+  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT" styleID="1" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="KEYWORD" styleID="2" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0" keywordClass="instre2"/>
+  <WordsStyle name="PARAMETER" styleID="3" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0" keywordClass="type1"/>
+  <!-- <WordsStyle name="SECTION" styleID="4" fgColor="268BD2" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <!-- <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="1E789B" bgColor="2A2A2B" fontStyle="0" keywordClass="type2"/> -->
+  <!-- <WordsStyle name="PREPROCESSOR INLINE" styleID="6" fgColor="1E789B" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="COMMENT PASCAL" styleID="7" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="KEYWORD PASCAL" styleID="8" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0" keywordClass="type3"/> -->
+  <!-- <WordsStyle name="KEYWORD USER" styleID="9" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0" keywordClass="type4"/> -->
+  <WordsStyle name="STRING DOUBLE" styleID="10" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="STRING SINGLE" styleID="11" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="IDENTIFIER" styleID="12" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/> -->
+</LexerType>

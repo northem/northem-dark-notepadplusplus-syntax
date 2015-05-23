@@ -1,0 +1,19 @@
+<!-- == PostScript == -->
+<LexerType name="postscript" desc="PostScript" ext="ps">
+  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT" styleID="1" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="DSC COMMENT" styleID="2" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="DSC VALUE" styleID="3" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="NUMBER" styleID="4" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="Name" styleID="5" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0">True False</WordsStyle>
+  <!-- <WordsStyle name="INSTRUCTION" styleID="6" fgColor="859900" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <!-- <WordsStyle name="LITERAL" styleID="7" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="IMMEVAL" styleID="8" fgColor="268BD2" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="PAREN ARRAY" styleID="9" fgColor="93A1A1" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="PAREN DICT" styleID="10" fgColor="93A1A1" bgColor="D900D9" fontStyle="0"/> -->
+  <!-- <WordsStyle name="PAREN PROC" styleID="11" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="TEXT" styleID="12" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="HEX STRING" styleID="13" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="BASE85 STRING" styleID="14" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="BAD STRING CHAR" styleID="15" fgColor="D7837F" bgColor="2A2A2B" fontStyle="0"/>
+</LexerType>

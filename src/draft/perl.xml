@@ -1,0 +1,36 @@
+<!-- == Perl == -->
+<LexerType name="perl" desc="Perl" ext="pl pm plx">
+  <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="1E789B" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <WordsStyle name="NUMBER" styleID="4" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="STRING" styleID="6" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="CHARACTER" styleID="7" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="OPERATOR" styleID="10" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="REGEX" styleID="17" fgColor="E6CD69" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="REGSUBST" styleID="18" fgColor="268BD2" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="COMMENT LINE" styleID="2" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="IDENTIFIER" styleID="11" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="SCALAR" styleID="12" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="ARRAY" styleID="13" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="HASH" styleID="14" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="SYMBOL TABLE" styleID="15" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="PUNCTUATION" styleID="8" fgColor="93A1A1" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="POD" styleID="3" fgColor="586E75" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="POD VERB" styleID="31" fgColor="586E75" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="ERROR" styleID="1" fgColor="D7837F" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="LONGQUOTE" styleID="19" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="DATASECTION" styleID="21" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="BACKTICKS" styleID="20" fgColor="EEE8D5" bgColor="6C71C4" fontStyle="0"/> -->
+  <!-- <WordsStyle name="HERE DELIM" styleID="22" fgColor="CB4B16" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="HERE Q" styleID="23" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="HERE QQ" styleID="24" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="HERE QX" styleID="25" fgColor="EEE8D5" bgColor="6C71C4" fontStyle="0"/> -->
+  <!-- <WordsStyle name="STRING Q" styleID="26" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="STRING QQ" styleID="27" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="STRING QX" styleID="28" fgColor="EEE8D5" bgColor="6C71C4" fontStyle="0"/> -->
+  <!-- <WordsStyle name="STRING QR" styleID="29" fgColor="6C71C4" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="STRING QW" styleID="30" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="FORMAT IDENT" styleID="41" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="FORMAT" styleID="42" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+</LexerType>

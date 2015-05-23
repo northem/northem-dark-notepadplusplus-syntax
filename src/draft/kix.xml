@@ -1,0 +1,13 @@
+<!-- == KiXtart == -->
+<LexerType name="kix" desc="KiXtart" ext="kix">
+  <WordsStyle name="DEFAULT" styleID="31" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT" styleID="1" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="STRING" styleID="2" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="STRING2" styleID="3" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="NUMBER" styleID="4" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="VAR" styleID="5" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="MACRO" styleID="6" fgColor="CB4B16" bgColor="2A2A2B" fontStyle="0" keywordClass="instre2"/> -->
+  <!-- <WordsStyle name="INSTRUCTION WORD" styleID="7" fgColor="859900" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <WordsStyle name="FUNCTION" styleID="8" fgColor="9FCA56" bgColor="2A2A2B" fontStyle="0" keywordClass="type1"/>
+  <WordsStyle name="OPERATOR" styleID="9" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/>
+</LexerType>

@@ -1,0 +1,15 @@
+<!-- == LISP == -->
+<LexerType name="lisp" desc="LISP" ext="lsp lisp">
+  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENTLINE" styleID="1" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="NUMBER" styleID="2" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="FUNCTION WORD" styleID="3" fgColor="859900" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <!-- <WordsStyle name="FUNCTION WORD2" styleID="4" fgColor="6C71C4" bgColor="2A2A2B" fontStyle="0" keywordClass="instre2"/> -->
+  <!-- <WordsStyle name="SYMBOL" styleID="5" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="STRING" styleID="6" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="STRINGEOL" styleID="8" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="IDENTIFIER" styleID="9" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="OPERATOR" styleID="10" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0" keywordClass="type1"/>
+  <!-- <WordsStyle name="SPECIAL" styleID="11" fgColor="CB4B16" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="COMMENT" styleID="12" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+</LexerType>

@@ -1,0 +1,18 @@
+<!-- == CAML == -->
+<LexerType name="caml" desc="CAML" ext="ml mli sml thy">
+  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="IDENTIFIER" styleID="1" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="TAGNAME" styleID="2" fgColor="CB4B16" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="INSTRUCTION WORD" styleID="3" fgColor="859900" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <!-- <WordsStyle name="BUILIN FUNC &amp; TYPE" styleID="4" fgColor="268BD2" bgColor="2A2A2B" fontStyle="0" keywordClass="instre2"/> -->
+  <!-- <WordsStyle name="TYPE" styleID="5" fgColor="6C71C4" bgColor="2A2A2B" fontStyle="0" keywordClass="type1"/> -->
+  <WordsStyle name="LINENUM" styleID="6" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="OPERATOR" styleID="7" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="NUMBER" styleID="8" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="CHARACTER" styleID="9" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="STRING" styleID="11" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT" styleID="12" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT LINE" styleID="13" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT DOC" styleID="14" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+</LexerType>

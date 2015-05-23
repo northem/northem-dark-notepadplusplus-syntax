@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<!--
+#************************************************#
+#             Northem Dark Notepad++             #
+#------------------------------------------------#
+#          northem-dark-notepadplusplus          #
+#                 version 0.1.0                  #
+#       http://arcticicestudio.com/Northem       #
+#                                                #
+#               Arctic Ice Studio                #
+#              Copyright (c) 2015                #
+#         development@arcticicestudio.com        #
+#                                                #
+#      Created : 2015-03-26 16:12 +0100 UTC      #
+#      Modified: 2015-05-23 20:19 +0100 UTC      #
+#************************************************#
+
+[Description]
+Northem is a north-bluish theme based on the same named color palette designed by Arctic Ice Studio.
+This is a darker and more blue-tinged variation.
+
+[Variations]
+Also available as:
+  - "Northem Notepad++"        (https://github.com/arcticicestudio/northem-notepadplusplus)
+  - "Northem Light Notepad++"  (in drafting)
+
+[Other Projects]
+  - "Northem Dark Atom Syntax"          (https://github.com/arcticicestudio/northem-dark-atom-syntax)
+  - "Northem Dark Atom UI"              (https://github.com/arcticicestudio/northem-dark-atom-ui)
+  - "Northem Dark Eclipse Syntax"       (https://github.com/arcticicestudio/northem-dark-eclipse-syntax)
+  - "Northem Dark gedit"                (https://github.com/arcticicestudio/northem-dark-gedit)
+  - "Northem Dark GTK"                  (in drafting)
+
+Visit the official homepage http://arcticicestudio.com/Northem (actually under construction) for more informations.
+
+[Languages]
+Syntax Highlighting actually includes:
+  - bash
+  - Batch
+  - CSS
+  - diff
+  - HTML
+  - Initialization files
+  - Java
+  - JavaScript
+  - PHP
+  - Properties files
+  - SQL
+  - XML
+
+[Version]
+LATEST
+  - stable:     0.1.0 (https://github.com/arcticicestudio/northem-dark-notepadplusplus/releases/tag/0.1.0)
+  - snapshot:   /
+
+status: indev
+
+For variations or older versions check out the GitHub Repository (https://github.com/arcticicestudio/northem-dark-notepadplusplus) and http://arcticicestudio.com/Northem (actually under construction).
+
+[Changelog]
+Check out the "CHANGELOG.md" file or visit the GitHub Repository (https://github.com/arcticicestudio/northem-dark-notepadplusplus) and http://arcticicestudio.com/Northem (actually under construction).
+
+[Development]
+Please report bugs and suggestions for improvement/language support at https://github.com/arcticicestudio/northem-dark-notepadplusplus/issues.
+
+[Recommendations]
+This theme matches the Open Source font "Source Code Pro" (https://typekit.com/fonts/source-code-pro).
+Visit the GitHub Repository (https://github.com/adobe-fonts/source-code-pro) for more informations.
+
+[Installation]
+Download and install the recommended font, read section "Recommendations" for more informations.
+
+Go to "Edit" -> "Settings" -> "Style Configurator" -> "Import" -> "Import Theme(s)".
+Alternatively copy the theme file manually, depending on the desired type of installation:
+
+  Global:                   "themes" folder in Notepad++ installation directory
+  User (Vista/7/8/8.1):     "%APPDATA%\Roaming\Notepad++\themes"
+  User (XP):                "%SYSTEMDRIVE%\Documents and Settings\%USERNAME%\Application Data\Notepad++\themes"
+
+Activate it by going to "Settings" -> "Style Configurator" and select "northem-dark-notepadplusplus" from the drop-down menu.
+
+[License]
+Copyright (C) 2015 Arctic Ice Studio
+
+Northem code is licensed under "GPL3" (http://www.gnu.org/licenses/gpl.txt).
+Northem color palette itself is licensed under "CC BY-NC-SA 4.0" (http://creativecommons.org/licenses/by-nc-sa/4.0).
+
+[References]
+Style Scheme Definition:  http://docs.notepad-plus-plus.org/index.php/User_Defined_Languages
+Language Definition:      http://docs.notepad-plus-plus.org/index.php/User_Defined_Language_Files
+Language File Model:      http://svn.tuxfamily.org/viewvc.cgi/notepadplus_repository/trunk/PowerEditor/src/langs.model.xml?revision=1351&view=markup
+-->
+<NotepadPlus>
+  <!--
+  =================
+  = COLOR PALETTE =
+  =================
+  -->
+  <!--
+  ****************************
+  *        Northem Dark      *
+  *           1.0.0          *
+  ****************************
+
+  darkest-coal  #1F1F23
+  dark-coal     #242429
+  coal          #29292E
+  light-coal    #4F4F59
+  dirty-white   #DEDEDE
+  white         #ECEEEF
+
+  aqua          #8FCEC8
+  blue          #85C1D3
+  light-blue    #87B2CE
+  dark-blue     #5B81AF
+
+  red           #E07473
+  yellow        #FDCE84
+  orange        #F0A06F
+  lime          #C9CC78
+  purple        #C2A1CA
+
+  -->
+  <!--
+  ============
+  = SETTINGS =
+  ============
+  -->
+  <GlobalStyles>
+    <WidgetStyle name="Global override" styleID="0" fgColor="ECEEEF" bgColor="242429" fontName="Source Code Pro" fontStyle="0" fontSize="16"/>
+    <WidgetStyle name="Default Style" styleID="32" fgColor="ECEEEF" bgColor="242429" fontName="Source Code Pro" fontStyle="0" fontSize="16"/>
+    <WidgetStyle name="Indent guideline style" styleID="37" fgColor="29292E" bgColor="242429" fontStyle="0"/>
+    <WidgetStyle name="Brace highlight style" styleID="34" fgColor="ECEEEF" bgColor="87B2CE" fontStyle="0"/>
+    <WidgetStyle name="Bad brace colour" styleID="35" fgColor="ECEEEF" bgColor="E07473" fontStyle="0"/>
+    <WidgetStyle name="Current line background colour" styleID="0" bgColor="29292E" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Selected text colour" styleID="0" bgColor="5B81AF" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Caret colour" styleID="2069" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+    <WidgetStyle name="Edge colour" styleID="0" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+    <WidgetStyle name="Line number margin" styleID="33" fgColor="4F4F59" bgColor="1F1F23" fontStyle="0"/>
+    <WidgetStyle name="Fold" styleID="0" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+    <WidgetStyle name="Fold active" styleID="0" fgColor="5B81AF" bgColor="1F1F23" fontSize="8" fontStyle="0"/>
+    <WidgetStyle name="Fold margin" styleID="0" fgColor="1F1F23" bgColor="1F1F23" fontStyle="0"/>
+    <WidgetStyle name="White space symbol" styleID="0" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+    <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="5B81AF" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Find Mark Style" styleID="31" bgColor="5B81AF" fgColor="555753" fontSize="10" fontStyle="0"/>
+    <WidgetStyle name="Mark Style 1" styleID="25" bgColor="5B81AF" fontStyle="0" fgColor="ECEEEF" fontSize="10"/>
+    <WidgetStyle name="Mark Style 2" styleID="24" bgColor="5B81AF" fontStyle="0" fgColor="ECEEEF"/>
+    <WidgetStyle name="Mark Style 3" styleID="23" bgColor="5B81AF" fontStyle="0" fgColor="ECEEEF"/>
+    <WidgetStyle name="Mark Style 4" styleID="22" bgColor="5B81AF" fontStyle="0" fgColor="ECEEEF" fontSize="10"/>
+    <WidgetStyle name="Mark Style 5" styleID="21" bgColor="5B81AF" fontStyle="0" fgColor="ECEEEF"/>
+    <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="5B81AF" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="5B81AF" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Tags attribute" styleID="26" bgColor="5B81AF" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="85C1D3" bgColor="1F1F23" fontStyle="0"/>
+    <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="1F1F23" bgColor="1F1F23" fontStyle="0"/>
+    <WidgetStyle name="Active tab text" styleID="0" fgColor="1F1F23" bgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Inactive tabs" styleID="0" fgColor="ECEEEF" bgColor="1F1F23" fontStyle="0"/>
+    </GlobalStyles>
+    <!--
+    =============
+    = LANGUAGES =
+    =============
+    -->
+    <LexerStyles>
+      <!-- == Bash == -->
+      <LexerType name="bash" desc="bash" ext="sh bsh">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ERROR" styleID="1" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="NUMBER" styleID="3" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="STRING" styleID="5" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="CHARACTER" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="7" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="IDENTIFIER" styleID="8" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SCALAR" styleID="9" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="PARAM" styleID="10" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="BACKTICKS" styleID="11" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="HERE DELIM" styleID="12" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="HERE Q" styleID="13" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == Batch == -->
+      <LexerType name="batch" desc="Batch" ext="bat cmd nt">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="KEYWORDS" styleID="2" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="LABEL" styleID="3" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="HIDE SYBOL" styleID="4" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMAND" styleID="5" fgColor="C9CC78" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="VARIABLE" styleID="6" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="7" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == CSS == -->
+      <LexerType name="css" desc="CSS" ext="">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAG" styleID="1" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="CLASS" styleID="2" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="FDCE84" bgColor="242429" fontStyle="2"/>
+        <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="5" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="IDENTIFIER" styleID="6" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="E07473" bgColor="242429" fontStyle="0" strikethrough="1"/>
+        <WordsStyle name="VALUE" styleID="8" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="9" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ID" styleID="10" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="IMPORTANT" styleID="11" fgColor="FDCE84" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="DIRECTIVE" styleID="12" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DOUBLESTRING" styleID="13" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SINGLESTRING" styleID="14" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == diff == -->
+      <LexerType name="diff" desc="diff" ext="diff patch">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMAND" styleID="2" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="HEADER" styleID="3" fgColor="85C1D3" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="POSITION" styleID="4" fgColor="85C1D3" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="DELETED" styleID="5" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ADDED" styleID="6" fgColor="C9CC78" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == HTML == -->
+      <LexerType name="html" desc="HTML" ext="html htm shtml shtm xhtml hta">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="9" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="5" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SINGLESTRING" styleID="7" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAG" styleID="1" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAGEND" styleID="11" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="CDATA" styleID="17" fgColor="4F4F59" bgColor="242429" fontStyle="2"/>
+        <WordsStyle name="VALUE" styleID="19" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ENTITY" styleID="10" fgColor="FDCE84" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == Initialization file == -->
+      <LexerType name="ini" desc="Initialization file" ext="ini inf reg url">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SECTION" styleID="2" fgColor="85C1D3" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DEFVAL" styleID="4" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == Java == -->
+      <LexerType name="java" desc="Java" ext="java">
+        <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="5B81AF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DEFAULT" styleID="11" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="TYPE WORD" styleID="16" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="type1"/>
+        <WordsStyle name="NUMBER" styleID="4" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="STRING" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="CHARACTER" styleID="7" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="10" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="VERBATIM" styleID="13" fgColor="FDCE84" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="REGEX" styleID="14" fgColor="FDCE84" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC" styleID="3" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="5B81AF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == JavaScript == -->
+      <LexerType name="javascript" desc="Javascript" ext="js json">
+        <WordsStyle name="DEFAULT" styleID="41" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="45" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="WORD" styleID="46" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="KEYWORD" styleID="47" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SINGLESTRING" styleID="49" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SYMBOLS" styleID="50" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="STRINGEOL" styleID="51" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="REGEX" styleID="52" fgColor="FDCE84" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="42" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENTLINE" styleID="43" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENTDOC" styleID="44" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="5B81AF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == PHP == -->
+      <LexerType name="php" desc="PHP" ext="php php3 phtml">
+        <WordsStyle name="QUESTION MARK" styleID="18" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="DEFAULT" styleID="118" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="STRING" styleID="119" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SIMPLESTRING" styleID="120" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="WORD" styleID="121" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="NUMBER" styleID="122" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="VARIABLE" styleID="123" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="124" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENTLINE" styleID="125" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="127" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == Properties file == -->
+      <LexerType name="props" desc="Properties file" ext="properties">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SECTION" styleID="2" fgColor="85C1D3" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DEFVAL" styleID="4" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == SQL == -->
+      <LexerType name="sql" desc="SQL" ext="sql">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC" styleID="3" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="4" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="KEYWORD" styleID="5" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="STRING" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="STRING2" styleID="7" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="10" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="IDENTIFIER" styleID="11" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+
+      <!-- == XMl == -->
+      <LexerType name="xml" desc="XML" ext="xml xsml xsl xsd kml wsdl xlf xliff">
+        <WordsStyle name="XMLSTART" styleID="12" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="XMLEND" styleID="13" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="9" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="5" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SINGLESTRING" styleID="7" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAG" styleID="1" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAGEND" styleID="11" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="CDATA" styleID="17" fgColor="4F4F59" bgColor="242429" fontStyle="2"/>
+      </LexerType>
+    </LexerStyles>
+</NotepadPlus>

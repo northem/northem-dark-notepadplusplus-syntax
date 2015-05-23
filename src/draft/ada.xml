@@ -1,0 +1,15 @@
+<!-- == ADA == -->
+<LexerType name="ada" desc="ADA" ext="ada ads adb">
+  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="INSTRUCTION WORD" styleID="1" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <!-- <WordsStyle name="IDENTIFIER" styleID="2" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="NUMBER" styleID="3" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="DELIMITER" styleID="4" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="CHARACTER" styleID="5" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="CHARACTER EOL" styleID="6" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="1"/>
+  <WordsStyle name="STRING" styleID="7" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="STRING EOL" styleID="8" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="1"/>
+  <!-- <WordsStyle name="LABEL" styleID="9" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="COMMENT LINE" styleID="10" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="ILLEGAL" styleID="11" fgColor="D7837F" bgColor="2A2A2B" fontStyle="0"/>
+</LexerType>

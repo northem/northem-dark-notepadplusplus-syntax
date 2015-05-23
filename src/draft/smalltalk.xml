@@ -1,0 +1,20 @@
+<!-- == Smalltalk == -->
+<LexerType name="smalltalk" desc="Smalltalk" ext="st">
+  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="STRING" styleID="1" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="NUMBER" styleID="2" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT" styleID="3" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="SYMBOL" styleID="4" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="BINARY" styleID="5" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="BOOL" styleID="6" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="SELF" styleID="7" fgColor="268BD2" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="SUPER" styleID="8" fgColor="268BD2" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="NIL" styleID="9" fgColor="859900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="GLOBAL" styleID="10" fgColor="CB4B16" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="RETURN" styleID="11" fgColor="268BD2" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="SPECIAL" styleID="12" fgColor="93A1A1" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="KWS END" styleID="13" fgColor="859900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="ASSIGN" styleID="14" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="CHARACTER" styleID="15" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="SPECIAL SELECTOR" styleID="16" fgColor="859900" bgColor="2A2A2B" fontStyle="0"/> -->
+</LexerType>

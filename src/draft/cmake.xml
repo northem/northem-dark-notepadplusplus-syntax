@@ -1,0 +1,18 @@
+<!-- == CMakeFile == -->
+<LexerType name="cmake" desc="CMakeFile" ext="cmake">
+  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT" styleID="1" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="STRING D" styleID="2" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="STRING L" styleID="3" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="STRING R" styleID="4" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="COMMAND" styleID="5" fgColor="859900" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <WordsStyle name="PARAMETER" styleID="6" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="VARIABLE" styleID="7" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="USER DEFINED" styleID="8" fgColor="6C71C4" bgColor="2A2A2B" fontStyle="0" keywordClass="type1"/> -->
+  <WordsStyle name="WHILEDEF" styleID="9" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="FOREACHDEF" styleID="10" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="IFDEF" styleID="11" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="MACRODEF" styleID="12" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/> -->
+  <!-- <WordsStyle name="STRING VARIABLE" styleID="13" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="NUMBER" styleID="14" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+</LexerType>

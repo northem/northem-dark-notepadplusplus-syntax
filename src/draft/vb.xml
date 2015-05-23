@@ -1,0 +1,11 @@
+<!-- == Visual Basic == -->
+<LexerType name="vb" desc="Visual Basic" ext="vb vbs">
+  <WordsStyle name="DEFAULT" styleID="7" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="COMMENT" styleID="1" fgColor="626262" bgColor="2A2A2B" fontStyle="0"/>
+  <WordsStyle name="NUMBER" styleID="2" fgColor="A074C4" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="WORD" styleID="3" fgColor="859900" bgColor="2A2A2B" fontStyle="0" keywordClass="instre1"/> -->
+  <WordsStyle name="STRING" styleID="4" fgColor="B5CEA8" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="1E789B" bgColor="2A2A2B" fontStyle="0"/> -->
+  <WordsStyle name="OPERATOR" styleID="6" fgColor="6897BB" bgColor="2A2A2B" fontStyle="0"/>
+  <!-- <WordsStyle name="DATE" styleID="8" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
+</LexerType>

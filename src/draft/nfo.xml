@@ -1,0 +1,4 @@
+<!-- == DOS-NFO == -->
+<LexerType name="nfo" desc="DOS-NFO" ext="nfo">
+  <WordsStyle name="DEFAULT" styleID="32" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
+</LexerType>
