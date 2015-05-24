@@ -1,9 +1,0 @@
-<!-- == TeX == -->
-<LexerType name="tex" desc="TeX" ext="tex">
-  <WordsStyle name="DEFAULT" styleID="0" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0"/>
-  <!-- <WordsStyle name="SPECIAL" styleID="1" fgColor="2AA198" bgColor="2A2A2B" fontStyle="0"/> -->
-  <!-- <WordsStyle name="GROUP" styleID="2" fgColor="93A1A1" bgColor="2A2A2B" fontStyle="0"/> -->
-  <!-- <WordsStyle name="SYMBOL" styleID="3" fgColor="B58900" bgColor="2A2A2B" fontStyle="0"/> -->
-  <!-- <WordsStyle name="COMMAND" styleID="4" fgColor="859900" bgColor="2A2A2B" fontStyle="0"/> -->
-  <WordsStyle name="TEXT" styleID="5" fgColor="E4E8E8" bgColor="2A2A2B" fontStyle="0">if else for while</WordsStyle>
-</LexerType>
