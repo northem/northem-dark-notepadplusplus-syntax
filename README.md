@@ -40,7 +40,7 @@ Syntax Highlighting actually includes:
   - XML
 
 ### Version
-_stable_: [`0.1.0`](https://github.com/arcticicestudio/northem-dark-notepadplusplus/releases/tag/0.1.0)  
+_stable_: [`0.1.0`](https://github.com/arcticicestudio/northem-dark-notepadplusplus/releases/tag/v0.1.0)  
 _snapshot_: [/](#)
 
 _state_: `indev`

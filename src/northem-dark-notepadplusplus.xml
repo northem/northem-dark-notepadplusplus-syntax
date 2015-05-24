@@ -12,7 +12,7 @@
 #         development@arcticicestudio.com        #
 #                                                #
 #      Created : 2015-03-26 16:12 +0100 UTC      #
-#      Modified: 2015-05-23 20:19 +0100 UTC      #
+#      Modified: 2015-05-24 11:44 +0100 UTC      #
 #************************************************#
 
 [Description]
@@ -49,7 +49,7 @@ Syntax Highlighting actually includes:
   - XML
 
 [Version]
-  - stable:     0.1.0 (https://github.com/arcticicestudio/northem-dark-notepadplusplus/releases/tag/0.1.0)
+  - stable:     0.1.0 (https://github.com/arcticicestudio/northem-dark-notepadplusplus/releases/tag/v0.1.0)
   - snapshot:   /
 
 status: indev
