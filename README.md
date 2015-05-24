@@ -3,12 +3,12 @@
 [![Northem Logo](res/image/northem-logo.png)](http://arcticicestudio.com/Northem)
 
 ### Description
-A north-bluish dark theme based on the same named [color palette](https://github.com/arcticicestudio/northem) designed by [Arctic Ice Studio](http://arcticicestudio.com).
+A north-bluish dark theme based on the same named [color palette](https://github.com/arcticicestudio/northem) designed by [Arctic Ice Studio](http://arcticicestudio.com).  
 This is a darker and more blue-tinged variation.
 
-[![Northem](res/image/northem-dark.png)](http://arcticicestudio.com/Northem)
+![Northem](res/image/northem-dark.png)
 
-[![Northem](res/image/preview-screenshot.png)](http://arcticicestudio.com/Northem)
+![Northem](res/image/preview-screenshot.png)
 
 ### Variations
 Also available as:
@@ -40,8 +40,7 @@ Syntax Highlighting actually includes:
   - XML
 
 ### Version
-> Latest
-_stable_: [`0.1.0`](https://github.com/arcticicestudio/northem-dark-notepadplusplus/releases/tag/0.1.0)
+_stable_: [`0.1.0`](https://github.com/arcticicestudio/northem-dark-notepadplusplus/releases/tag/0.1.0)  
 _snapshot_: [/](#)
 
 _state_: `indev`
@@ -49,23 +48,23 @@ _state_: `indev`
 For variants or older versions check out the [GitHub Repository](https://github.com/arcticicestudio/northem-dark-notepadplusplus) or [official homepage](http://arcticicestudio.com/Northem) (actually under construction).
 
 ### Changelog
-Check out the `CHANGELOG.md` file or visit the [GitHub Repository](https://github.com/arcticicestudio/northem-dark-notepadplusplus) or [official homepage](http://arcticicestudio.com/Northem) (actually under construction).
+Check out the [`CHANGELOG.md`](CHANGELOG.md) file or visit the [GitHub Repository](https://github.com/arcticicestudio/northem-dark-notepadplusplus) or [official homepage](http://arcticicestudio.com/Northem) (actually under construction).
 
 ### Development
 Please report bugs and suggestions for improvement/language support [here](https://github.com/arcticicestudio/northem-dark-notepadplusplus/issues).
 
 ### Recommendations
-This theme matches the Open Source font [Source Code Pro](https://typekit.com/fonts/source-code-pro).
+This theme matches the Open Source font [Source Code Pro](https://typekit.com/fonts/source-code-pro).  
 Visit the [GitHub Repository](https://github.com/adobe-fonts/source-code-pro) for more informations.
 
 ### Installation
 Download and install the recommended font, read section [Recommendations](#Recommendations) for more informations.
 
-Go to _Edit_ > _Settings_ > _Style_ _Configurator_ > _Import_ > _Import_ _Theme(s)_.
+Go to _Edit_ > _Settings_ > _Style_ _Configurator_ > _Import_ > _Import_ _Theme(s)_.  
 Alternatively copy the theme file manually, depending on the desired type of installation:
 
-  *Global*:                   `themes` folder in Notepad++ installation directory
-  *User* (Vista/7/8/8.1):     `%APPDATA%\Roaming\Notepad++\themes`
+  *Global*:                   `themes` folder in Notepad++ installation directory  
+  *User* (Vista/7/8/8.1):     `%APPDATA%\Roaming\Notepad++\themes`  
   *User* (XP):                `%SYSTEMDRIVE%\Documents and Settings\%USERNAME%\Application Data\Notepad++\themes`
 
 Activate it by going to _Settings_ > _Style_ _Configurator_ and select `northem-dark-notepadplusplus` from the drop-down menu.
@@ -73,12 +72,12 @@ Activate it by going to _Settings_ > _Style_ _Configurator_ and select `northem-
 ### License
 Copyright (C) 2015 Arctic Ice Studio
 
-Northem code is licensed under [GPL3](http://www.gnu.org/licenses/gpl.txt).
+Northem code is licensed under [GPL3](http://www.gnu.org/licenses/gpl.txt).  
 Northem color palette itself is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0).
 
 ---
 
 ### References
-[Style Scheme Definition](http://docs.notepad-plus-plus.org/index.php/User_Defined_Languages)
-[Language Definition](http://docs.notepad-plus-plus.org/index.php/User_Defined_Language_Files)
+[Style Scheme Definition](http://docs.notepad-plus-plus.org/index.php/User_Defined_Languages)  
+[Language Definition](http://docs.notepad-plus-plus.org/index.php/User_Defined_Language_Files)  
 [Language File Model](http://svn.tuxfamily.org/viewvc.cgi/notepadplus_repository/trunk/PowerEditor/src/langs.model.xml?revision=1351&view=markup)
