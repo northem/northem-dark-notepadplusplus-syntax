@@ -16,11 +16,11 @@ Also available as:
   - [Northem Light Notepad++](#) (in drafting)
 
 ### Other Projects
-  - ![Atom logo](https://atom.io/favicon.ico) [Northem Dark Atom Syntax](https://github.com/arcticicestudio/northem-dark-atom-syntax)
-  - ![Atom logo](https://atom.io/favicon.ico) [Northem Dark Atom UI](https://github.com/arcticicestudio/northem-dark-atom-ui)
-  - ![Eclipse logo](https://eclipse.org/favicon.ico) [Northem Dark Eclipse Syntax](https://github.com/arcticicestudio/northem-dark-eclipse-syntax)
-  - ![gedit logo](https://static.gnome.org/wiki.gnome.org/gnome/css/favicon.png) [Northem Dark gedit](https://github.com/arcticicestudio/northem-dark-gedit)
-  - ![GTK logo](http://www.gtk.org/images/gtk-logo.ico) [Northem Dark GTK](#) (in drafting)
+  - <a href="https://github.com/arcticicestudio/northem-dark-atom-syntax"><img src="https://atom.io/favicon.ico" alt="Atom Logo" width="16" height="16">  Northem Dark Atom Syntax</a>
+  - <a href="https://github.com/arcticicestudio/northem-dark-atom-ui"><img src="https://atom.io/favicon.ico" alt="Atom Logo" width="16" height="16">  Northem Dark Atom UI</a>
+  - <a href="https://github.com/arcticicestudio/northem-dark-eclipse-syntax"><img src="https://eclipse.org/favicon.ico" alt="Eclipse Logo" width="16" height="16">  Northem Dark Eclipse Syntax</a>
+  - <a href="https://github.com/arcticicestudio/northem-dark-gedit"><img src="https://static.gnome.org/wiki.gnome.org/gnome/css/favicon.png" alt="Gedit Logo" width="16" height="16">  Northem Dark gedit</a>
+  - <a href="#"><img src="http://www.gtk.org/images/gtk-logo.ico" alt="GTK Logo" width="16" height="16">  Northem Dark GTK</a> (in drafting)
 
 Visit the [official homepage](http://arcticicestudio.com/Northem) (actually under construction) for more informations.
 
