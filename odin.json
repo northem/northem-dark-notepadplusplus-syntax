@@ -1,0 +1,54 @@
+{
+  "id": "northem-dark-notepadplusplus-syntax",
+  "name": "Northem Dark - Notepad++ Syntax",
+  "version": "",
+  "date": {
+   "created": "2015-03-26 16:12 UTC+0100",
+   "updated": ""
+  },
+  "access": "public",
+  "modularity": "subproject",
+  "description": "A north-bluish dark theme based on the same named color palette \"Northem Dark\". This is a darker and more blue-tinged variation of the \"Northem\" color palette.",
+  "website": "http://arcticicestudio.com/northem",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com",
+    "website": "http://arcticicestudio.com",
+    "GitHub": "https://github.com/arcticicestudio",
+    "Twitter": "https://twitter.com/arcticicestudio",
+    "Reddit": "https://reddit.com/user/arcticicestudio"
+  },
+  "repository": {
+    "localpath": "~/yggdrasil/Northem/northem-dark-notepadplusplus-syntax",
+    "url": "https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax/issues",
+    "email": "bugs@arcticicestudio.com"
+  },
+  "engines": [
+    {"id": "notepadplusplus","version": "6.9.x","manager": "unmanaged"}
+  ],
+  "devEngines": [
+    {"id": "git","version": "2.8.*","manager": "pacman"},
+    {"id": "odin","version": "0.1.0","manager": "odin"}
+  ],
+  "specifications": [
+    {"id": "arcver","version": "0.8.0","manager": "odin"}
+  ],
+  "dependencies": [
+    {"id": "northem-dark","version": "1.0.1","manager": "odin"}
+  ],
+  "devDependencies": [
+    {"id": "glacier-git","version": "0.23.0","manager": "odin"}
+  ],
+  "contributors": [
+    {"name": "Arctic Ice Studio","email": "development@arcticicestudio.com"}
+  ],
+  "copyright": "Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>",
+  "license": [
+    {"name": "GPL-3.0","file": "LICENSE.md"},
+    {"name": "CC-BY-SA-4.0","file": "LICENSE.md"}
+  ],
+  "tags": ["northem","notepadplusplus","notepad++","ui","syntax","bluish","dark","flat","frontend","lightweight"]
+}
