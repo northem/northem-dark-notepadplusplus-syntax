@@ -10,7 +10,7 @@ email     development@arcticicestudio.com         +
 website   http://arcticicestudio.com              +
 copyright Copyright (C) 2015-2016                 +
 created   2015-03-26 16:12 UTC+0100               +
-modified  2016-04-15 11:43 UTC+0200               +
+modified  2016-04-15 11:54 UTC+0200               +
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [Description]
@@ -32,6 +32,7 @@ This is a darker and more blue-tinged variation of the "Northem" color palette.
     (2.8) PHP
     (2.9) Properties
     (2.10) SQL
+    (2.11) XML
 
 [Variations]
   - "Northem - Notepad++ Syntax"       (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -375,6 +376,27 @@ Glacier - Git
         <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[2.10]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - XML                                                     [2.11] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="xml" desc="XML" ext="xml xsml xsl xsd kml wsdl xlf xliff">
+        <WordsStyle name="XMLSTART" styleID="12" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="XMLEND" styleID="13" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="9" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="5" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SINGLESTRING" styleID="7" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAG" styleID="1" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAGEND" styleID="11" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="CDATA" styleID="17" fgColor="4F4F59" bgColor="242429" fontStyle="2"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[2.11]-+ -->
     </LexerStyles>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
