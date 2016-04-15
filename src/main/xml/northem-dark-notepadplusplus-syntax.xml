@@ -31,6 +31,7 @@ This is a darker and more blue-tinged variation of the "Northem" color palette.
     (2.7) JavaScript
     (2.8) PHP
     (2.9) Properties
+    (2.10) SQL
 
 [Variations]
   - "Northem - Notepad++ Syntax"       (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -356,6 +357,24 @@ Glacier - Git
         <WordsStyle name="DEFVAL" styleID="4" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.9]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - SQL                                                     [2.10] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="sql" desc="SQL" ext="sql">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC" styleID="3" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="4" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="KEYWORD" styleID="5" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="STRING" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="STRING2" styleID="7" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="10" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="IDENTIFIER" styleID="11" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[2.10]-+ -->
     </LexerStyles>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
