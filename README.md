@@ -38,12 +38,12 @@ Visit the [official website](http://arcticicestudio.com/northem) (currently unde
   - <img src="https://www.w3.org/favicon.ico" width=16 height=16> <a href="https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/installer/APIs/xml.xml">XML</a>
 
 ### Version
-[`-`](https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax/releases/latest)  
+[`0.0.0`](https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax/releases/latest)  
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax) or [official website](http://arcticicestudio.com/northem) (currently under construction).
 
 ### Changelog
-[`-`](CHANGELOG.md)
+[`0.0.0`](CHANGELOG.md)
 
 ### Installation
 Download and install the recommended font, read the [Recommendations](#Recommendations) section for more information.
