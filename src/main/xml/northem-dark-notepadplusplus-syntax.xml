@@ -4,7 +4,7 @@
 title     Northem Dark - Notepad++ Syntax         +
 project   northem-dark-notepadplusplus-syntax     +
 file      northem-dark-notepadplusplus-syntax.xml +
-version                                           +
+version   0.1.0                                   +
 author    Arctic Ice Studio                       +
 email     development@arcticicestudio.com         +
 website   http://arcticicestudio.com              +
@@ -61,7 +61,7 @@ Visit the official website http://arcticicestudio.com/northem (currently under c
   - XML        (https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/installer/APIs/xml.xml)
 
 [Version]
-- (https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax/releases/latest)
+0.1.0 (https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax/releases/latest)
 
 For older versions check out the GitHub Repository (https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax/releases)
 and http://arcticicestudio.com/northem (currently under construction).
