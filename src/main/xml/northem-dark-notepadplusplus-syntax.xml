@@ -20,6 +20,8 @@ This is a darker and more blue-tinged variation of the "Northem" color palette.
 [Index]
   (1) Settings
     (1.0) Global Styles
+  (2) Languages
+    (2.0) Bash
 
 [Variations]
   - "Northem - Notepad++ Syntax"       (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -163,6 +165,30 @@ Glacier - Git
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1.0]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1]-+ -->
 
-  <LexerStyles>
-  </LexerStyles>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages                                                              [2] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+    <LexerStyles>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Bash                                                     [2.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="bash" desc="bash" ext="sh bsh">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ERROR" styleID="1" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="NUMBER" styleID="3" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="STRING" styleID="5" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="CHARACTER" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="7" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="IDENTIFIER" styleID="8" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SCALAR" styleID="9" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="PARAM" styleID="10" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="BACKTICKS" styleID="11" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="HERE DELIM" styleID="12" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="HERE Q" styleID="13" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.0]-+ -->
+    </LexerStyles>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
