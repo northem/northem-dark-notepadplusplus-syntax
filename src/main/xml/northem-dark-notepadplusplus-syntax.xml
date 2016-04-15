@@ -25,6 +25,7 @@ This is a darker and more blue-tinged variation of the "Northem" color palette.
     (2.1) Batch
     (2.2) CSS
     (2.3) diff
+    (2.4) HTML
 
 [Variations]
   - "Northem - Notepad++ Syntax"       (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -243,6 +244,27 @@ Glacier - Git
         <WordsStyle name="ADDED" styleID="6" fgColor="C9CC78" bgColor="242429" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.3]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - HTML                                                     [2.4] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="html" desc="HTML" ext="html htm shtml shtm xhtml hta">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="9" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="5" fgColor="C2A1CA" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SINGLESTRING" styleID="7" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAG" styleID="1" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAGEND" styleID="11" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="5B81AF" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="CDATA" styleID="17" fgColor="4F4F59" bgColor="242429" fontStyle="2"/>
+        <WordsStyle name="VALUE" styleID="19" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ENTITY" styleID="10" fgColor="FDCE84" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.4]-+ -->
     </LexerStyles>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
