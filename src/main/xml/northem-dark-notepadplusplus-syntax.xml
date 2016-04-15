@@ -22,6 +22,7 @@ This is a darker and more blue-tinged variation of the "Northem" color palette.
     (1.0) Global Styles
   (2) Languages
     (2.0) Bash
+    (2.1) Batch
 
 [Variations]
   - "Northem - Notepad++ Syntax"       (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -189,6 +190,21 @@ Glacier - Git
         <WordsStyle name="HERE Q" styleID="13" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.0]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Batch                                                    [2.1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="batch" desc="Batch" ext="bat cmd nt">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="KEYWORDS" styleID="2" fgColor="85C1D3" bgColor="242429" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="LABEL" styleID="3" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="HIDE SYBOL" styleID="4" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMAND" styleID="5" fgColor="C9CC78" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="VARIABLE" styleID="6" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="7" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.1]-+ -->
     </LexerStyles>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
