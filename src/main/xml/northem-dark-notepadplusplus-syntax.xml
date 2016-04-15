@@ -26,6 +26,7 @@ This is a darker and more blue-tinged variation of the "Northem" color palette.
     (2.2) CSS
     (2.3) diff
     (2.4) HTML
+    (2.5) Initializations
 
 [Variations]
   - "Northem - Notepad++ Syntax"       (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -265,6 +266,18 @@ Glacier - Git
         <WordsStyle name="ENTITY" styleID="10" fgColor="FDCE84" bgColor="242429" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.4]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Initializations                                          [2.5] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="ini" desc="Initialization file" ext="ini inf reg url">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="SECTION" styleID="2" fgColor="85C1D3" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="DEFVAL" styleID="4" fgColor="85C1D3" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.5]-+ -->
     </LexerStyles>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
