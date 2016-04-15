@@ -24,6 +24,7 @@ This is a darker and more blue-tinged variation of the "Northem" color palette.
     (2.0) Bash
     (2.1) Batch
     (2.2) CSS
+    (2.3) diff
 
 [Variations]
   - "Northem - Notepad++ Syntax"       (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -228,6 +229,20 @@ Glacier - Git
         <WordsStyle name="SINGLESTRING" styleID="14" fgColor="DEDEDE" bgColor="242429" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.2]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - diff                                                     [2.3] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="diff" desc="diff" ext="diff patch">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="4F4F59" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="COMMAND" styleID="2" fgColor="8FCEC8" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="HEADER" styleID="3" fgColor="85C1D3" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="POSITION" styleID="4" fgColor="85C1D3" bgColor="242429" fontStyle="1"/>
+        <WordsStyle name="DELETED" styleID="5" fgColor="E07473" bgColor="242429" fontStyle="0"/>
+        <WordsStyle name="ADDED" styleID="6" fgColor="C9CC78" bgColor="242429" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.3]-+ -->
     </LexerStyles>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
